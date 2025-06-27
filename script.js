@@ -17,9 +17,8 @@ window.addEventListener('DOMContentLoaded', () =>{
 
   btn.addEventListener('click', () => {
     count++;
-    msg.textContent = `ボタンをクリックした回数: ${count}回`;
+    msg.textContent = ボタンをクリックした回数: ${count}回;
+    //背景色を変える
+    document.body.style.backgroundColor = getRandomColor();
   })
-
-  //背景色を変える
-  document.body.style.backgroundColor = getRandomColor();
 });
