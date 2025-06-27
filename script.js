@@ -6,6 +6,6 @@ window.addEventListener('DOMContentLoaded', () =>{
 
   btn.addEventListener('click', () => {
     count++;
-    msg.textContent = 'ボタンをクリックした回数: ${count}回';
+    msg.textContent = `ボタンをクリックした回数: ${count}回`;
   })
 });
